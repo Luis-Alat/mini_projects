@@ -1,2 +1,3 @@
 .ipynb_checkpoints
 data/Airline_Passenger_Satisfaction/*
+.env
