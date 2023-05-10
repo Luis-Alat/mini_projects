@@ -2,3 +2,4 @@
 .env
 data/oxxo/
 __pycache__
+03_RealTimeFaceDetection/data/users/*
