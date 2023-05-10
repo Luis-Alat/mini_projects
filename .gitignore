@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 .env
-data/oxxo/
 __pycache__
-03_RealTimeFaceDetection/data/users/*
+
+02_Oxxo/data/*
+03_RealTimeFaceDetection/data/*

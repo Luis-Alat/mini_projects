@@ -12,5 +12,6 @@ I highly recommend open the notebooks using [nbviewer](https://nbviewer.org/) fo
 
     Obtaining and analyzing the distribution of oxxo stores in mexico city. This project consists of 4 files: data collection, data wrangling, outlier cleaning and analysis. Created with: pandas, numpy, selenium, geopy, geopandas, shapely, seaborn, matplotlib, plotly, sklearn, networkx, scipy, statmodels 
 
-* [03 - Real Time Face Recognition](.)
+* [03 - Real Time Face Recognition](https://github.com/Luis-Alat/mini_projects/tree/main/03_RealTimeFaceDetection)
+
     Creating a face detection and face recognition system using youtube videos and integrated camera. Created with opencv, numpy, yt_dlp, PIL
