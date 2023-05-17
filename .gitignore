@@ -1,5 +1,7 @@
-.ipynb_checkpoints
+# Do not remove
 .env
+
+.ipynb_checkpoints
 __pycache__
 
 02_Oxxo/data/*
