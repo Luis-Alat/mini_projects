@@ -1,0 +1,12 @@
+{
+    "models":{
+        "training":{
+            "cascade":"data/models/haarcascade_frontalface_default.xml",
+            "lbph":"data/training/weights.yml"
+        }
+    },
+    "data_base":{
+        "users":"data/users"
+    }
+
+}
