@@ -4,11 +4,11 @@ This repository is mainly for projects that I have done out of curiosity, practi
 
 I highly recommend open the notebooks using [nbviewer](https://nbviewer.org/) for a better display and interactions of the plots/charts found inside some notebooks
 
-* [01 - Airline Passenger Satisfaction](https://github.com/Luis-Alat/mini_projects/blob/main/01_AirlinePassengerSatisfactionEDA.ipynb)
+* [01 - Airline Passenger Satisfaction](https://github.com/Luis-Alat/mini_projects/tree/main/01_AirlinePassengerSatisfaction)
 
     Exploratory data analysis of passenger satisfaction data from kaggle created with: pandas, seaborn, matplotlib, numpy, sklearn
 
-* [02 - Oxxo](https://github.com/Luis-Alat/mini_projects/tree/main/02_Oxxo)
+* [02 - Oxxo distribution](https://github.com/Luis-Alat/mini_projects/tree/main/02_Oxxo)
 
     Obtaining and analyzing the distribution of oxxo stores in mexico city. This project consists of 4 files: data collection, data wrangling, outlier cleaning and analysis. Created with: pandas, numpy, selenium, geopy, geopandas, shapely, seaborn, matplotlib, plotly, sklearn, networkx, scipy, statmodels 
 
