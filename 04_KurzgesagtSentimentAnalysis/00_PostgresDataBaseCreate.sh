@@ -62,7 +62,7 @@ psql -U $USER_POSTGRES -h $HOST_POSTGRES << EOF
 
 	CREATE TABLE languages (
 		id_language SMALLSERIAL UNIQUE NOT NULL PRIMARY KEY,
-		code VARCHAR(9) NOT NULL
+		code VARCHAR(9) UNIQUE NOT NULL
 	);
 
 	CREATE TABLE titles (
@@ -77,15 +77,15 @@ psql -U $USER_POSTGRES -h $HOST_POSTGRES << EOF
 
 	CREATE TABLE comments (
 		id_comment SERIAL UNIQUE NOT NULL PRIMARY KEY,
-		comment text,
+		comment text NOT NULL,
 		published_date DATE,
 		likes INTEGER,
-		id_user INTEGER,
-		id_video VARCHAR(12),
-		id_language SMALLINT
+		id_user INTEGER NOT NULL,
+		id_video VARCHAR(12) NOT NULL,
+		id_language SMALLINT NOT NULL
 	);
 
-	ALTER TABLE comments 
+	ALTER TABLE comments
 	ADD CONSTRAINT fk_user FOREIGN KEY (id_user) REFERENCES users (id_user);
 
 	ALTER TABLE comments
