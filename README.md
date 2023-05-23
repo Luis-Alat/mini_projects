@@ -15,3 +15,5 @@ I highly recommend open the notebooks using [nbviewer](https://nbviewer.org/) fo
 * [03 - Real Time Face Recognition](https://github.com/Luis-Alat/mini_projects/tree/main/03_RealTimeFaceDetection)
 
     Creating a face detection and face recognition system using youtube videos and integrated camera. Created with opencv, numpy, yt_dlp, PIL
+
+* [04 - Kurzgesagt Sentiment Analysis ](https://github.com/Luis-Alat/mini_projects/tree/main/04_KurzgesagtSentimentAnalysis)
