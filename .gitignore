@@ -7,3 +7,4 @@ __pycache__
 02_Oxxo/data/*
 03_RealTimeFaceDetection/data/*
 04_KurzgesagtSentimentAnalysis/data/*
+04_KurzgesagtSentimentAnalysis/models/*
