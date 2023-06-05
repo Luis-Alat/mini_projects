@@ -6,5 +6,6 @@ __pycache__
 
 02_Oxxo/data/*
 03_RealTimeFaceDetection/data/*
-04_KurzgesagtSentimentAnalysis/data/*
-04_KurzgesagtSentimentAnalysis/models/*
+
+04_End_End_SentimentAnalysis_ETL_EDA/data/*
+04_End_End_SentimentAnalysis_ETL_EDA/models/*
