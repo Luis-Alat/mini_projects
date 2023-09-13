@@ -10,6 +10,9 @@ from wordcloud import STOPWORDS
 
 from bs4 import BeautifulSoup
 
+import nltk
+nltk.download("all")
+
 stop_words_word = set(STOPWORDS)
 stop_words_nltk = set(stopwords.words("english"))
 stop_words = stop_words_word.union(stop_words_nltk)

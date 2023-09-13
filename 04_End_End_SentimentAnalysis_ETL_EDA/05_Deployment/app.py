@@ -8,13 +8,13 @@ from flask import Flask, request, render_template, jsonify
 app = Flask(__name__)
 
 # Loading preprocessing techniques and machine learning model
-with open("01_tfidf_vectorizer_fitted.joblib", "rb") as vFile:
+with open("models/01_tfidf_vectorizer_fitted.joblib", "rb") as vFile:
     vectorizer = joblib.load(vFile)
 
-with open("02_chi2_250_feature_selector_fitted.joblib", "rb") as fsFile:
+with open("models/02_chi2_250_feature_selector_fitted.joblib", "rb") as fsFile:
     feature_selector = joblib.load(fsFile)
 
-with open("03_random_forest_model_fitted.joblib", "rb") as rfFile:
+with open("models/03_random_forest_model_fitted.joblib", "rb") as rfFile:
     random_forest_clf = joblib.load(rfFile)
 
 # Map the machine learning output into something more friendly
