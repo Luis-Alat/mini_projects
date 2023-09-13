@@ -9,3 +9,5 @@ __pycache__
 
 04_End_End_SentimentAnalysis_ETL_EDA/data/*
 04_End_End_SentimentAnalysis_ETL_EDA/models/*
+
+05_CLassification_text/data/*
